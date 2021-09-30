@@ -3,7 +3,7 @@ package Class1;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Trial {
+public class GitDiscussion {
 
     public static void main(String[] args) {
 
@@ -16,7 +16,8 @@ public class Trial {
         WebDriver driver = new ChromeDriver();
         driver.get("http://www.Amazon.com/");
 
-        
+        driver.manage().window().maximize();
     }
-}
 
+
+}
